@@ -1,0 +1,42 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Jan 31 12:18:59 2024]
+[!
+>Data file = mhc.nexus
+>Exhaustive search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1098 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        904 characters are constant (proportion = 0.823315)
+>        104 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 90
+>    Gaps are treated as "missing"
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Exhaustive search completed:
+>  Number of trees evaluated = 135135
+>  Score of best tree found = 277
+>  Score of worst tree found = 396
+>  Number of trees retained = 2
+>  Time used = 0.06 sec (CPU time = 0.05 sec)
+]
+	Translate
+		1 human,
+		2 gorilla,
+		3 gibbon,
+		4 bonobo,
+		5 chimpanzee,
+		6 orangutan,
+		7 yellow_baboon,
+		8 olive_baboon,
+		9 macaque
+		;
+tree 'PAUP_1' = [&U] (((((1:4,(4:9,5:3):7):10,2:26):12,3:45):14,6:23):20,(7:15,(8:25,9:34):11):19);
+tree 'PAUP_2' = [&U] (((((1:4,(4:9,5:3):7):15,2:21):12,6:25):10,3:47):21,(7:15,(8:25,9:34):11):18);
+End;
