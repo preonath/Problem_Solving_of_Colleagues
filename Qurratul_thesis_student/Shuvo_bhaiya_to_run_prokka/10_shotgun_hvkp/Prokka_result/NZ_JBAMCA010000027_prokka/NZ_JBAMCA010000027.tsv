@@ -1,0 +1,16 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000027_00001	CDS	900	folE2			GTP cyclohydrolase FolE2
+NZ_JBAMCA010000027_00002	CDS	561	ccmM		COG0663	Carbon dioxide concentrating mechanism protein CcmM
+NZ_JBAMCA010000027_00003	CDS	867				hypothetical protein
+NZ_JBAMCA010000027_00004	CDS	810				hypothetical protein
+NZ_JBAMCA010000027_00005	CDS	828	mntB_1			Manganese transport system membrane protein MntB
+NZ_JBAMCA010000027_00006	CDS	861	mntB_2			Manganese transport system membrane protein MntB
+NZ_JBAMCA010000027_00007	CDS	822	mntB_3		COG1121	Manganese transport system ATP-binding protein MntB
+NZ_JBAMCA010000027_00008	CDS	915			COG0803	putative periplasmic iron-binding protein
+NZ_JBAMCA010000027_00009	CDS	1953	thrS	6.1.1.3	COG0441	Threonine--tRNA ligase
+NZ_JBAMCA010000027_00010	CDS	852				hypothetical protein
+NZ_JBAMCA010000027_00011	CDS	1347	allB	3.5.2.5	COG0044	Allantoinase
+NZ_JBAMCA010000027_00012	CDS	1023	hemB	4.2.1.24	COG0113	Delta-aminolevulinic acid dehydratase
+NZ_JBAMCA010000027_00013	CDS	336				hypothetical protein
+NZ_JBAMCA010000027_00014	CDS	1185	mnmC	2.1.1.61		tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+NZ_JBAMCA010000027_00015	CDS	255				hypothetical protein

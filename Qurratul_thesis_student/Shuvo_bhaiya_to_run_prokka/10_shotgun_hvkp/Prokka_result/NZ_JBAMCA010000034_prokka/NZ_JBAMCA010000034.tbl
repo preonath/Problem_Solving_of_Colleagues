@@ -1,0 +1,30 @@
+>Feature NZ_JBAMCA010000034.1
+195	1382	CDS
+			EC_number	1.1.99.-
+			db_xref	COG:COG0641
+			gene	atsB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X758
+			locus_tag	NZ_JBAMCA010000034_00001
+			product	Anaerobic sulfatase-maturating enzyme
+1427	3160	CDS
+			EC_number	3.1.6.1
+			db_xref	COG:COG3119
+			gene	atsA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X759
+			locus_tag	NZ_JBAMCA010000034_00002
+			product	Arylsulfatase
+3248	4024	CDS
+			EC_number	1.1.1.100
+			gene	fabG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P50941
+			locus_tag	NZ_JBAMCA010000034_00003
+			product	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+4050	4841	CDS
+			gene	moaF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54796
+			locus_tag	NZ_JBAMCA010000034_00004
+			product	Protein MoaF

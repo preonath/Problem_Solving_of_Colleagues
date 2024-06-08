@@ -1,0 +1,254 @@
+>Feature NZ_JBAMCA010000028.1
+915	64	CDS
+			EC_number	1.13.11.15
+			db_xref	COG:COG3384
+			gene	hpcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q05353
+			locus_tag	NZ_JBAMCA010000028_00001
+			product	3,4-dihydroxyphenylacetate 2,3-dioxygenase
+2383	917	CDS
+			EC_number	1.2.1.8
+			db_xref	COG:COG1012
+			gene	betB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9HTJ1
+			locus_tag	NZ_JBAMCA010000028_00002
+			product	NAD/NADP-dependent betaine aldehyde dehydrogenase
+3144	2380	CDS
+			db_xref	COG:COG0179
+			gene	hpcE_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37352
+			locus_tag	NZ_JBAMCA010000028_00003
+			product	Homoprotocatechuate catabolism bifunctional isomerase/decarboxylase
+3773	3141	CDS
+			db_xref	COG:COG0179
+			gene	hpcE_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37352
+			locus_tag	NZ_JBAMCA010000028_00004
+			product	Homoprotocatechuate catabolism bifunctional isomerase/decarboxylase
+4061	4501	CDS
+			gene	farR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DPR8
+			locus_tag	NZ_JBAMCA010000028_00005
+			product	HTH-type transcriptional regulator FarR
+4464	4793	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00006
+			product	hypothetical protein
+4744	5031	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00007
+			product	hypothetical protein
+5068	6084	CDS
+			EC_number	1.5.1.21
+			db_xref	COG:COG2055
+			gene	lhpD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I492
+			locus_tag	NZ_JBAMCA010000028_00008
+			product	Delta(1)-pyrroline-2-carboxylate/Delta(1)-piperideine-2-carboxylate reductase
+7334	6114	CDS
+			EC_number	4.1.2.42
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O82872
+			locus_tag	NZ_JBAMCA010000028_00009
+			product	D-threonine aldolase
+7535	8974	CDS
+			EC_number	3.5.1.81
+			gene	dan
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P72349
+			locus_tag	NZ_JBAMCA010000028_00010
+			product	D-aminoacylase
+8985	9377	CDS
+			EC_number	3.5.4.-
+			db_xref	COG:COG0251
+			gene	tdcF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AGL2
+			locus_tag	NZ_JBAMCA010000028_00011
+			product	Putative reactive intermediate deaminase TdcF
+9563	11056	CDS
+			db_xref	COG:COG0591
+			gene	opuE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O06493
+			locus_tag	NZ_JBAMCA010000028_00012
+			product	Osmoregulated proline transporter OpuE
+11066	11938	CDS
+			EC_number	2.7.1.58
+			db_xref	COG:COG3734
+			gene	dgoK1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q92RN7
+			locus_tag	NZ_JBAMCA010000028_00013
+			product	putative 2-dehydro-3-deoxygalactonokinase DgoK1
+11925	12524	CDS
+			EC_number	4.1.2.21
+			db_xref	COG:COG0800
+			gene	dgoA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q6BF16
+			locus_tag	NZ_JBAMCA010000028_00014
+			product	2-dehydro-3-deoxy-6-phosphogalactonate aldolase
+13384	12521	CDS
+			db_xref	COG:COG1737
+			gene	hexR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q88P32
+			locus_tag	NZ_JBAMCA010000028_00015
+			product	HTH-type transcriptional regulator HexR
+13987	13454	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00016
+			product	hypothetical protein
+14020	14850	CDS
+			EC_number	2.3.1.189
+			gene	mshD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01698
+			locus_tag	NZ_JBAMCA010000028_00017
+			product	Mycothiol acetyltransferase
+14951	17716	CDS
+			gene	norR
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01314
+			locus_tag	NZ_JBAMCA010000028_00018
+			product	Anaerobic nitric oxide reductase transcription regulator NorR
+17817	18239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00019
+			product	hypothetical protein
+18254	18724	CDS
+			EC_number	2.7.1.206
+			db_xref	COG:COG3444
+			gene	sorB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37081
+			locus_tag	NZ_JBAMCA010000028_00020
+			product	PTS system sorbose-specific EIIB component
+18741	19520	CDS
+			db_xref	COG:COG3715
+			gene	agaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42910
+			locus_tag	NZ_JBAMCA010000028_00021
+			product	N-acetylgalactosamine permease IIC component 1
+19498	20349	CDS
+			db_xref	COG:COG3716
+			gene	manZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69805
+			locus_tag	NZ_JBAMCA010000028_00022
+			product	PTS system mannose-specific EIID component
+20362	21423	CDS
+			EC_number	2.6.1.16
+			db_xref	COG:COG0449
+			gene	glmS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5NHQ9
+			locus_tag	NZ_JBAMCA010000028_00023
+			product	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+21441	22451	CDS
+			EC_number	3.5.-.-
+			db_xref	COG:COG2222
+			gene	frlB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32157
+			locus_tag	NZ_JBAMCA010000028_00024
+			product	Fructosamine deglycase FrlB
+22591	23529	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISRor2
+			locus_tag	NZ_JBAMCA010000028_00025
+			product	ISNCY family transposase ISRor2
+25875	23584	CDS
+			EC_number	2.7.8.20
+			gene	mdoB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01070
+			locus_tag	NZ_JBAMCA010000028_00026
+			product	Phosphoglycerol transferase I
+26623	26132	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00027
+			product	hypothetical protein
+27432	26689	CDS
+			db_xref	COG:COG1484
+			gene	dnaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AEF0
+			locus_tag	NZ_JBAMCA010000028_00028
+			product	DNA replication protein DnaC
+27968	27429	CDS
+			gene	dnaT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67524
+			locus_tag	NZ_JBAMCA010000028_00029
+			product	Primosomal protein 1
+28544	28071	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADD2
+			locus_tag	NZ_JBAMCA010000028_00030
+			note	UPF0442 protein YjjB
+			product	hypothetical protein
+29311	28535	CDS
+			db_xref	COG:COG2966
+			gene	yjjP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADD5
+			locus_tag	NZ_JBAMCA010000028_00031
+			product	Inner membrane protein YjjP
+29591	30775	CDS
+			EC_number	1.14.13.2
+			db_xref	COG:COG0654
+			gene	pobA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20586
+			locus_tag	NZ_JBAMCA010000028_00032
+			product	p-hydroxybenzoate hydroxylase
+30792	31673	CDS
+			gene	rhaR
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01533
+			locus_tag	NZ_JBAMCA010000028_00033
+			product	HTH-type transcriptional activator RhaR
+31939	32661	CDS
+			gene	yjjQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADD7
+			locus_tag	NZ_JBAMCA010000028_00034
+			product	Putative transcription factor YjjQ
+32622	33296	CDS
+			db_xref	COG:COG2197
+			gene	bglJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39404
+			locus_tag	NZ_JBAMCA010000028_00035
+			product	Transcriptional activator protein BglJ
+33760	33302	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00036
+			product	hypothetical protein
+34098	35441	CDS
+			db_xref	COG:COG1455
+			gene	licC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46317
+			locus_tag	NZ_JBAMCA010000028_00037
+			product	Lichenan permease IIC component
+36279	35491	CDS
+			db_xref	COG:COG4114
+			gene	fhuF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39405
+			locus_tag	NZ_JBAMCA010000028_00038
+			product	Ferric iron reductase protein FhuF
+36535	36386	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000028_00039
+			product	hypothetical protein

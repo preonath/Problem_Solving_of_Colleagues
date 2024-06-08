@@ -1,0 +1,34 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000032_00001	CDS	912	tuf1			Elongation factor Tu 1
+NZ_JBAMCA010000032_00002	CDS	384	secE		COG0690	Protein translocase subunit SecE
+NZ_JBAMCA010000032_00003	CDS	546	nusG		COG0250	Transcription termination/antitermination protein NusG
+NZ_JBAMCA010000032_00004	CDS	429	rplK		COG0080	50S ribosomal protein L11
+NZ_JBAMCA010000032_00005	CDS	705	rplA		COG0081	50S ribosomal protein L1
+NZ_JBAMCA010000032_00006	CDS	498	rplJ		COG0244	50S ribosomal protein L10
+NZ_JBAMCA010000032_00007	CDS	366	rplL		COG0222	50S ribosomal protein L7/L12
+NZ_JBAMCA010000032_00008	CDS	4029	rpoB	2.7.7.6	COG0085	DNA-directed RNA polymerase subunit beta
+NZ_JBAMCA010000032_00009	CDS	4224	rpoC	2.7.7.6	COG0086	DNA-directed RNA polymerase subunit beta'
+NZ_JBAMCA010000032_00010	CDS	1341	dcuB		COG2704	Anaerobic C4-dicarboxylate transporter DcuB
+NZ_JBAMCA010000032_00011	CDS	318	chbA		COG1447	PTS system N,N'-diacetylchitobiose-specific EIIA component
+NZ_JBAMCA010000032_00012	CDS	306	celA	2.7.1.205		PTS system cellobiose-specific EIIB component
+NZ_JBAMCA010000032_00013	CDS	1533				hypothetical protein
+NZ_JBAMCA010000032_00014	CDS	123				hypothetical protein
+NZ_JBAMCA010000032_00015	CDS	1134	thiH	4.1.99.19	COG1060	2-iminoacetate synthase
+NZ_JBAMCA010000032_00016	CDS	771	thiG	2.8.1.10	COG2022	Thiazole synthase
+NZ_JBAMCA010000032_00017	CDS	201	thiS		COG2104	Sulfur carrier protein ThiS
+NZ_JBAMCA010000032_00018	CDS	756	thiF	2.7.7.73	COG0476	Sulfur carrier protein ThiS adenylyltransferase
+NZ_JBAMCA010000032_00019	CDS	636	thiE	2.5.1.3	COG0352	Thiamine-phosphate synthase
+NZ_JBAMCA010000032_00020	CDS	1896	thiC	4.1.99.17	COG0422	Phosphomethylpyrimidine synthase
+NZ_JBAMCA010000032_00021	CDS	498	rsd		COG3160	Regulator of sigma D
+NZ_JBAMCA010000032_00022	CDS	774	nudC	3.6.1.22	COG2816	NADH pyrophosphatase
+NZ_JBAMCA010000032_00023	CDS	1065	hemE	4.1.1.37	COG0407	Uroporphyrinogen decarboxylase
+NZ_JBAMCA010000032_00024	CDS	672	nfi	3.1.21.7	COG1515	Endonuclease V
+NZ_JBAMCA010000032_00025	CDS	591			COG3068	putative protein
+NZ_JBAMCA010000032_00026	CDS	273	hupA			DNA-binding protein HU-alpha
+NZ_JBAMCA010000032_00027	CDS	702				hypothetical protein
+NZ_JBAMCA010000032_00028	CDS	438	zraP		COG3678	Zinc resistance-associated protein
+NZ_JBAMCA010000032_00029	CDS	1395	zraS	2.7.13.3		Sensor protein ZraS
+NZ_JBAMCA010000032_00030	CDS	1332	zraR		COG2204	Transcriptional regulatory protein ZraR
+NZ_JBAMCA010000032_00031	CDS	1296	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+NZ_JBAMCA010000032_00032	CDS	1590	purH		COG0138	Bifunctional purine biosynthesis protein PurH
+NZ_JBAMCA010000032_00033	CDS	204				hypothetical protein

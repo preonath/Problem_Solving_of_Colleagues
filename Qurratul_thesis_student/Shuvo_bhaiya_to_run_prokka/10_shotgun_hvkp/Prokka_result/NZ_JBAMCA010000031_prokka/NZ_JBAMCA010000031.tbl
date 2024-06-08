@@ -1,0 +1,114 @@
+>Feature NZ_JBAMCA010000031.1
+2742	1309	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000031_00001
+			product	hypothetical protein
+4865	3183	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000031_00002
+			product	hypothetical protein
+5170	5086	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	NZ_JBAMCA010000031_00003
+			product	tRNA-Leu(caa)
+5760	6440	CDS
+			EC_number	4.2.1.1
+			db_xref	COG:COG0288
+			gene	can
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P61517
+			locus_tag	NZ_JBAMCA010000031_00004
+			product	Carbonic anhydrase 2
+6437	7906	CDS
+			db_xref	COG:COG0659
+			gene	dauA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFR2
+			locus_tag	NZ_JBAMCA010000031_00005
+			product	C4-dicarboxylic acid transporter DauA
+8018	9037	CDS
+			EC_number	1.1.1.2
+			db_xref	COG:COG1064
+			gene	ahr
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27250
+			locus_tag	NZ_JBAMCA010000031_00006
+			product	Aldehyde reductase Ahr
+9180	10052	CDS
+			db_xref	COG:COG1175
+			gene	ugpA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10905
+			locus_tag	NZ_JBAMCA010000031_00007
+			product	sn-glycerol-3-phosphate transport system permease protein UgpA
+10042	10929	CDS
+			db_xref	COG:COG0395
+			gene	ngcG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O50501
+			locus_tag	NZ_JBAMCA010000031_00008
+			product	Diacetylchitobiose uptake system permease protein NgcG
+10940	11764	CDS
+			EC_number	3.1.4.53
+			gene	cpdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00905
+			locus_tag	NZ_JBAMCA010000031_00009
+			product	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+11770	12840	CDS
+			EC_number	7.6.2.10
+			db_xref	COG:COG3839
+			gene	ugpC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10907
+			locus_tag	NZ_JBAMCA010000031_00010
+			product	sn-glycerol-3-phosphate import ATP-binding protein UgpC
+12980	14290	CDS
+			db_xref	COG:COG1653
+			gene	ugpB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG80
+			locus_tag	NZ_JBAMCA010000031_00011
+			product	sn-glycerol-3-phosphate-binding periplasmic protein UgpB
+15333	14434	CDS
+			EC_number	4.2.1.44
+			db_xref	COG:COG1082
+			gene	iolE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42416
+			locus_tag	NZ_JBAMCA010000031_00012
+			product	Inosose dehydratase
+16241	15357	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000031_00013
+			product	hypothetical protein
+17296	16283	CDS
+			EC_number	1.1.1.18
+			db_xref	COG:COG0673
+			gene	iolG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26935
+			locus_tag	NZ_JBAMCA010000031_00014
+			product	Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase
+19283	17343	CDS
+			EC_number	3.7.1.22
+			db_xref	COG:COG3962
+			gene	iolD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42415
+			locus_tag	NZ_JBAMCA010000031_00015
+			product	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase
+19789	21702	CDS
+			EC_number	2.7.1.92
+			gene	iolC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01668
+			locus_tag	NZ_JBAMCA010000031_00016
+			product	5-dehydro-2-deoxygluconokinase
+21854	22711	CDS
+			db_xref	COG:COG1737
+			gene	hexR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q88P32
+			locus_tag	NZ_JBAMCA010000031_00017
+			product	HTH-type transcriptional regulator HexR

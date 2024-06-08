@@ -1,0 +1,8 @@
+Sample_Id,Resistance gene,Phenotype
+###COMMENT Name: Preonath
+Script: sumfize_resfinder_resulters.ch 
+Date: May 6, 2024
+Description: This script sumption from ResFinder analysis.
+###COMMENT
+95_STRE_BANG_1100196125,erm(B),Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S
+,tet(M),Doxycycline, Tetracycline, Minocycline

@@ -1,0 +1,5 @@
+PCR SL,Ext. Batch SL,Pool Set,Sample_ID,Batch No,Sl no,Collection Date,Study ID,Name,Phone no.,Relation with contact person,Lab_ID,Unnamed: 7,Collecting nurse,Results,Test date,Informed results by call,Informed results by text,Name of RA,Remarks,Enroll in COI (Y/N),Reason for non enrollment,Linking done (Y/N)
+1,1,P-1,12403015541,245 Zm,1.0,19/11/22,12403015651.0,elham,,,12403015541.0,Sick,,FluA(25.9),,,,,,,,Y
+2,2,P-1,12403015651,245 Zm,2.0,19/11/22,12403014652.0,fariya,1730947159.0,father ,12403015651.0,,mahbuba ,FluB(10.3),21/11/2022,,Ok,Shahina,,Y,,Y
+3,3,P-1,12403014652,245 Zm,3.0,19/11/22,12403013713.0,saifullah,1301757019.0,father ,12403014652.0,,mahbuba ,RSV (19.4),21/11/2022,,Ok,Shahina,,Y,,Y
+4,4,P-1,12403013713,245 Zm,,,,,,,,,,,,,,,,,,

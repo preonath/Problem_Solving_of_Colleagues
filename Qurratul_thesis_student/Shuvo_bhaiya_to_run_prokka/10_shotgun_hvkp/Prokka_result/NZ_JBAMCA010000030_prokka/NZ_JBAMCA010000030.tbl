@@ -1,0 +1,157 @@
+>Feature NZ_JBAMCA010000030.1
+956	729	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00001
+			product	hypothetical protein
+1269	1039	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00002
+			product	hypothetical protein
+1373	1648	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00003
+			product	hypothetical protein
+1761	2282	CDS
+			db_xref	COG:COG3730
+			gene	srlA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32521
+			locus_tag	NZ_JBAMCA010000030_00004
+			product	PTS system glucitol/sorbitol-specific EIIC component
+2279	2653	CDS
+			db_xref	COG:COG3731
+			gene	srlB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05706
+			locus_tag	NZ_JBAMCA010000030_00005
+			product	PTS system glucitol/sorbitol-specific EIIA component
+2650	3630	CDS
+			EC_number	2.7.1.198
+			db_xref	COG:COG3732
+			gene	srlE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32333
+			locus_tag	NZ_JBAMCA010000030_00006
+			product	PTS system glucitol/sorbitol-specific EIIB component
+3641	4657	CDS
+			EC_number	1.1.1.18
+			db_xref	COG:COG0673
+			gene	iolG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WYP5
+			locus_tag	NZ_JBAMCA010000030_00007
+			product	Myo-inositol 2-dehydrogenase
+5778	4738	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00008
+			product	hypothetical protein
+6790	5837	CDS
+			gene	mrkD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21648
+			locus_tag	NZ_JBAMCA010000030_00009
+			product	Fimbria adhesin protein
+8131	6791	CDS
+			db_xref	COG:COG3188
+			gene	lpfC'
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8X5K8
+			locus_tag	NZ_JBAMCA010000030_00010
+			product	putative outer membrane usher protein LpfC'
+9277	8132	CDS
+			db_xref	COG:COG3188
+			gene	yraJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42915
+			locus_tag	NZ_JBAMCA010000030_00011
+			product	Outer membrane usher protein YraJ
+9970	9290	CDS
+			gene	lpfB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8X5K6
+			locus_tag	NZ_JBAMCA010000030_00012
+			product	putative fimbrial chaperone LpfB
+10586	10074	CDS
+			db_xref	COG:COG3539
+			gene	ycbV
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75860
+			locus_tag	NZ_JBAMCA010000030_00013
+			product	putative fimbrial-like protein YcbV
+11545	10955	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISCep1
+			locus_tag	NZ_JBAMCA010000030_00014
+			product	ISKra4 family transposase ISCep1
+11757	12689	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00015
+			product	hypothetical protein
+12701	14044	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00016
+			product	hypothetical protein
+14059	15561	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00017
+			product	hypothetical protein
+16312	15650	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00018
+			product	hypothetical protein
+16638	16928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00019
+			product	hypothetical protein
+16993	17898	CDS
+			EC_number	2.7.7.-
+			gene	traC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27189
+			locus_tag	NZ_JBAMCA010000030_00020
+			product	DNA primase TraC
+17964	18335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00021
+			product	hypothetical protein
+19076	18369	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00022
+			product	hypothetical protein
+19788	19063	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00023
+			product	hypothetical protein
+19998	21590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00024
+			product	hypothetical protein
+22000	21734	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00025
+			product	hypothetical protein
+22218	22589	CDS
+			db_xref	COG:COG3177
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9K0V1
+			locus_tag	NZ_JBAMCA010000030_00026
+			product	putative protein
+23444	24430	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00027
+			product	hypothetical protein
+24851	25882	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00028
+			product	hypothetical protein
+25882	26871	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000030_00029
+			product	hypothetical protein
+26868	28253	CDS
+			EC_number	3.6.4.12
+			gene	rep
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01920
+			locus_tag	NZ_JBAMCA010000030_00030
+			product	ATP-dependent DNA helicase Rep

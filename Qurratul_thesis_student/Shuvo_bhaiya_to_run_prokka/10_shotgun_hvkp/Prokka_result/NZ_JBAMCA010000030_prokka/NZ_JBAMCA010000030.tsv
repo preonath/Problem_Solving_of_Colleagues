@@ -1,0 +1,31 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000030_00001	CDS	228				hypothetical protein
+NZ_JBAMCA010000030_00002	CDS	231				hypothetical protein
+NZ_JBAMCA010000030_00003	CDS	276				hypothetical protein
+NZ_JBAMCA010000030_00004	CDS	522	srlA		COG3730	PTS system glucitol/sorbitol-specific EIIC component
+NZ_JBAMCA010000030_00005	CDS	375	srlB		COG3731	PTS system glucitol/sorbitol-specific EIIA component
+NZ_JBAMCA010000030_00006	CDS	981	srlE	2.7.1.198	COG3732	PTS system glucitol/sorbitol-specific EIIB component
+NZ_JBAMCA010000030_00007	CDS	1017	iolG	1.1.1.18	COG0673	Myo-inositol 2-dehydrogenase
+NZ_JBAMCA010000030_00008	CDS	1041				hypothetical protein
+NZ_JBAMCA010000030_00009	CDS	954	mrkD			Fimbria adhesin protein
+NZ_JBAMCA010000030_00010	CDS	1341	lpfC'		COG3188	putative outer membrane usher protein LpfC'
+NZ_JBAMCA010000030_00011	CDS	1146	yraJ		COG3188	Outer membrane usher protein YraJ
+NZ_JBAMCA010000030_00012	CDS	681	lpfB			putative fimbrial chaperone LpfB
+NZ_JBAMCA010000030_00013	CDS	513	ycbV		COG3539	putative fimbrial-like protein YcbV
+NZ_JBAMCA010000030_00014	CDS	591				ISKra4 family transposase ISCep1
+NZ_JBAMCA010000030_00015	CDS	933				hypothetical protein
+NZ_JBAMCA010000030_00016	CDS	1344				hypothetical protein
+NZ_JBAMCA010000030_00017	CDS	1503				hypothetical protein
+NZ_JBAMCA010000030_00018	CDS	663				hypothetical protein
+NZ_JBAMCA010000030_00019	CDS	291				hypothetical protein
+NZ_JBAMCA010000030_00020	CDS	906	traC	2.7.7.-		DNA primase TraC
+NZ_JBAMCA010000030_00021	CDS	372				hypothetical protein
+NZ_JBAMCA010000030_00022	CDS	708				hypothetical protein
+NZ_JBAMCA010000030_00023	CDS	726				hypothetical protein
+NZ_JBAMCA010000030_00024	CDS	1593				hypothetical protein
+NZ_JBAMCA010000030_00025	CDS	267				hypothetical protein
+NZ_JBAMCA010000030_00026	CDS	372			COG3177	putative protein
+NZ_JBAMCA010000030_00027	CDS	987				hypothetical protein
+NZ_JBAMCA010000030_00028	CDS	1032				hypothetical protein
+NZ_JBAMCA010000030_00029	CDS	990				hypothetical protein
+NZ_JBAMCA010000030_00030	CDS	1386	rep	3.6.4.12		ATP-dependent DNA helicase Rep

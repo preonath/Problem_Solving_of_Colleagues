@@ -1,0 +1,191 @@
+#!/bin/bash
+#################################################################
+#																#
+#						Pipeline Commercial						#
+#																#
+#################################################################
+home="/media/chrf/Home03/Trial_Preonath/"
+path="/media/chrf/Home03/Trial_Preonath/Batch01/"
+
+### Create a directory for each strain and move fastq.gz files into a sub directory
+# for file in $path\/*.fastq.gz
+# do304131
+
+# 	name=`basename $file| cut -f 1,2 -d '_'`
+# 	echo $name
+# 	mkdir -p $path\/$name\/1_RawData
+# 	mv $file $path\/$name\/1_RawData/
+# done
+
+# *************************#
+# FastQC PreTrim analysis #
+# *************************#
+# for dir in $path*
+# do 
+# 	# echo $dir
+
+# 	name=`basename $dir`
+# 	echo $name
+# 	mkdir -p $dir\/2_PreProcess/2_FastQC/
+# 	fastqc -o $dir\/2_PreProcess/2_FastQC/ -f fastq -t 90 $dir\/1_RawData/*.fastq.gz
+# done
+
+# # Summarize fastqc outputs
+# folder=`basename $path`
+# mkdir -p $home\/Quality/$folder/FastQC/
+# multiqc $path\/*/2_PreProcess/2_FastQC/*fastqc.zip -o $home\/Quality/$folder/FastQC/
+
+#***********************************************#
+#					Trimmomatic					#
+#***********************************************#
+# trimmomatic="/home/chrf/programms/Trimmomatic-0.39/trimmomatic-0.39.jar"
+# truseq3PE="/home/chrf/programms/Trimmomatic-0.39/adapters/TruSeq3-PE.fa"
+
+# for dir in $path*
+# do 
+# 	name=`basename $dir`
+# 	echo $name
+# 	mkdir -p $dir\/1_Trimmed/
+# 	java -jar $trimmomatic PE -threads 92 $dir\/1_RawData/$name\_*_R1_001.fastq.gz $dir\/1_RawData/$name\_*_R2_001.fastq.gz $dir\/1_Trimmed/$name\_R1_TrmP.fastq.gz $dir\/1_Trimmed/$name\_R1_TrmS.fastq.gz $dir\/1_Trimmed/$name\_R2_TrmP.fastq.gz $dir\/1_Trimmed/$name\_R2_TrmS.fastq.gz ILLUMINACLIP:$truseq3PE:2:30:10
+
+# done
+
+# FastQC again
+# for dir in $path*
+# do 
+# 	name=`basename $dir`
+# 	echo $name
+# 	time(
+# 	mkdir -p $dir\/2_PreProcess/3_FastQC/
+# 	fastqc -o $dir\/2_PreProcess/3_FastQC/ -f fastq -t 92 $dir\/1_Trimmed/*TrmP.fastq.gz
+# 	)
+# done
+
+# # Summarize fastqc outputs
+# folder=`basename $path`
+# mkdir -p $home\/Quality/$folder/TrmFastQC/
+# multiqc $path\/*/2_PreProcess/3_FastQC/*fastqc.zip -o $home\/Quality/$folder/TrmFastQC/
+
+
+# ***********************************************#
+# 				Assembly by Unicycler			#
+# ***********************************************#
+for dir in $path*
+do
+	name=`basename $dir`
+	echo $name
+	unicycler -1 $dir\/1_RawData/*R1_001.fastq.gz -2 $dir\/1_RawData/*R2_001.fastq.gz -o $dir\/3_Unicycler/ -t 92 --min_fasta_length 200 --keep 1
+	#cat $dir\/1_Trimmed/$name\_R*_TrmS.fastq.gz > $dir\/1_Trimmed/$name\_TrmS.fastq.gz
+	#rm $dir\/1_Trimmed/$name\_R*_TrmS.fastq.gz
+	#unicycler -1 $dir\/1_Trimmed/$name\_R2_TrmP.fastq.gz -2 $dir\/1_Trimmed/$name\_R2_TrmP.fastq.gz -s $dir\/1_Trimmed/$name\_TrmS.fastq.gz -o $dir\/3_Unicycler/ -t 92 --min_fasta_length 200 --keep 1
+	
+done
+
+# prokka="/home/chrf/programms/prokka/bin/prokka"
+# for dir in $path*
+# do
+# 	name=`basename $dir`
+# 	echo $name
+# 	time(
+# 	echo " Prokka Annotation is Starting for ${name}.........."
+	
+# 	mkdir -p $dir\/4_Annotation/
+# 	$prokka --outdir $dir\/4_Annotation/prokka --cpus 92 --gcode 11 --prefix $name --locustag $name --quiet $dir\/3_Unicycler/assembly.fasta
+# 	gzip $dir\/4_Annotation/prokka/*
+# 	echo $name" - Prokka Annotation Done"
+# 	)
+# done
+
+
+# #***********************************************************************************#
+# #						Mapping by Bowtie2, VCF Quality Filter						#
+# #***********************************************************************************#
+# script="/home/chrf/WGS_Scripts/"
+# References="/home/chrf/Reference_Sequences/"
+# refname=HS11286
+# ref=KpnHS11286.fasta
+# # one line fasta
+# ref1=KpnHS11286.fna
+# acc="NC_016845.1"
+
+# # Build Index (speed up the alignment)
+# mkdir $References\/KpnHS11286/Index/
+# bowtie2-build $References\/KpnHS11286/$ref $References\/KpnHS11286/Index/index
+# Index=`echo $References`"KpnHS11286/Index/"
+# samtools faidx $References\/KpnHS11286/$ref
+
+# echo "Make OneLine Fasta for faidx indexing" # Used here
+# python $script\/MakeOneLineFasta.py $References\/KpnHS11286/$ref $References\/KpnHS11286/$ref1
+# mkdir $References\/KpnHS11286/Index1/
+# bowtie2-build $References\/KpnHS11286/$ref1 $References\/KpnHS11286/Index1/index
+# samtools faidx $References\/KpnHS11286/$ref1
+
+# # Define phage, repeat and variation regions (from Genbank and PHASTER)
+# python $script\/upload/extract_position_from_genbank.py --genbank $References\/KpnHS11286/KpnHS11286.gbk > $References\/KpnHS11286/KpnHS11286.phage_repeat_variation_all
+# cut -f 1 $References\/KpnHS11286/KpnHS11286.phage_repeat_variation_all | tr ',' '\t'  > $References\/KpnHS11286/KpnHS11286.phage_repeat_variation_from_genbank.txt	
+# # need to be manually reviewed
+# ## from PHASTER
+# cut -f 1 -d ' ' $References\/KpnHS11286/KpnHS11286.phage_regions_from_phaster_raw.txt | grep . | grep -v "#" | grep -v "CDS" | grep -v ">"| grep -v "-" | sed -e 's/#/g' | sed -e 's/complement(/g' | sed -e 's/)/g' | tr '..' '#' | sed -e 's/##/#/g'| tr '#' '\t' > $References\/KpnHS11286/KpnHS11286.phage_regions_from_phaster.txt
+# # need to be manually reviewed
+# ## merge them all together
+# cat $References\/KpnHS11286/KpnHS11286.phage_regions_from_phaster.txt $References\/KpnHS11286/KpnHS11286.phage_repeat_variation_from_genbank.txt > $References\/KpnHS11286/KpnHS11286.phage_repeat_variation_final.txt
+
+# # Generate Folders
+# mkdir $home\/Z0_VCFraw/
+# mkdir $home\/Z1_VCFhom/
+# mkdir $home\/Z2_VCFphrd/
+# mkdir $home\/Z3_VCFbiasF/
+# mkdir $home\/Z4_VCFphageD/
+
+# Index1=`echo $References`"KpnHS11286/Index1/"
+
+# for dir in $path$header*
+# do
+# 	name=`basename $dir`
+# 	echo $name
+# 	mkdir -p $dir\/4_Mapping_$refname/Mapping/
+# 	mkdir -p $path\/$name\/4_Mapping_$refname/Mapping/
+# 	time(
+# 	echo "# Mapping the reads"
+# 	bowtie2 -x $Index1\/index -1 $dir\/1_RawData/$name\_*R1*.fastq.gz -2 $dir\/1_RawData/$name\_*R2*.fastq.gz -S $dir\/4_Mapping_$refname/Mapping/$name\.sam -p 12
+# 	#bowtie2 -x $Index1\/index -1 $dir\/1_RawData/$name\_*1*.fastq.gz -2 $dir\/1_RawData/$name\_*2*.fastq.gz -S $dir\/4_Mapping_$refname/Mapping/$name\.sam -p 12
+# 	#bowtie2 -x $Index1\/index -1 $dir\/1_RawData/$name\_1.fastq.gz -2 $dir\/1_RawData/$name\_2.fastq.gz -S $dir\/4_Mapping_$refname/Mapping/$name\.sam -p 12
+# 	#bowtie2 -x $Index1\/index -1 $dir\/1_RawData/$name\_1.fq.gz -2 $dir\/1_RawData/$name\_2.fq.gz -S $dir\/4_Mapping_$refname/Mapping/$name\.sam -p 12
+# 	#bowtie2 -x $Index1\/index -1 $dir\/1_RawData/$name\_*_1.fq.gz -2 $dir\/1_RawData/$name\_*_2.fq.gz -S $dir\/4_Mapping_$refname/Mapping/$name\.sam -p 12
+# 	echo "# Convert .sam to .bam"
+# 	samtools view -ubS --threads 12 $dir\/4_Mapping_$refname/Mapping/$name\.sam > $dir\/4_Mapping_$refname/Mapping/$name\.bam
+# 	echo "# Sort the .bam"
+# 	samtools sort --threads 12 $dir\/4_Mapping_$refname/Mapping/$name\.bam -o $path\/$name\/4_Mapping_$refname/Mapping/$name\.sorted.bam
+# 	echo "# Index sorted BAM alignments"
+# 	samtools index -@ 12 $path\/$name\/4_Mapping_$refname/Mapping/$name\.sorted.bam
+# 	echo "# Call SNPs and Indels"
+# 	samtools mpileup -d 1000 -t DP -t SP -ugBf $References\/KpnHS11286/$ref1 $path\/$name\/4_Mapping_$refname/Mapping/$name\.sorted.bam | bcftools call -cv --threads 12 | bcftools view -v snps --threads 12 > $path\/$name\/4_Mapping_$refname/Mapping/$name\.raw.vcf
+# 	#echo "# Get raw coverage by position"
+# 	#samtools view -hub -F 4 --threads 12 $path\/$name\/4_Mapping_$refname/Mapping/$name\.sorted.bam | samtools mpileup - |cut - -f 2,4 > $path\/$name\/4_Mapping_$refname/Mapping/$name\.coverage
+# 	echo "# Filter for SNP Quality for_phylo (homogenous and phred 20)"
+# 	#sed -i -e 's/NC_010102_1/NC_016845.1/g' $dir\/4_Mapping_$refname/Mapping/$name\.raw.vcf
+# 	bcftools view --threads 12 -g hom $path\/$name\/4_Mapping_$refname/Mapping/$name\.raw.vcf > $path\/$name\/4_Mapping_$refname/Mapping/$name\.hom.vcf
+# 	python $script\/Filter_SNP_quality_for_phylo.py --vcf $path\/$name\/4_Mapping_$refname/Mapping/$name\.hom.vcf --output $path\/$name\/4_Mapping_$refname/Mapping/$name\.phrd.vcf
+# 	echo "# Filter for biases"
+# 	vcfutils.pl varFilter -1 0.001 -3 0.001 -4 0.001 $path\/$name\/4_Mapping_$refname/Mapping/$name\.phrd.vcf > $path\/$name\/4_Mapping_$refname/Mapping/$name\.biasF.vcf
+# 	echo "# Filter out SNPs in phage_regions"
+# 	python $script\/Filter_SNP_phage_repeat_regions.py --position $References\/KpnHS11286/KpnHS11286.phage_repeat_variation_final.txt --vcf $path\/$name\/4_Mapping_$refname/Mapping/$name\.biasF.vcf --output $path\/$name\/4_Mapping_$refname/Mapping/$name\.phageD.vcf
+# 	grep -v "#" $path\/$name\/4_Mapping_$refname/Mapping/$name\.phageD.vcf | wc -l
+
+# 	echo "# Delete .bam file & Gzip .sam & sorted.bam file"
+# 	pigz -p 12 -f $dir\/4_Mapping_$refname/Mapping/$name\.sam
+# 	pigz -p 12 -f $path\/$name\/4_Mapping_$refname/Mapping/$name\.sorted.bam
+# 	#pigz -p 12 $path\/$name\/4_Mapping_$refname/Mapping/$name\.coverage
+# 	rm $dir\/4_Mapping_$refname/Mapping/$name\.bam
+# 	echo "# Copy VCF files"
+# 	cp $path\/$name\/4_Mapping_$refname/Mapping/$name\.raw.vcf $home\/Z0_VCFraw/$name\.raw.vcf
+# 	cp $path\/$name\/4_Mapping_$refname/Mapping/$name\.hom.vcf $home\/Z1_VCFhom/$name\.hom.vcf
+# 	cp $path\/$name\/4_Mapping_$refname/Mapping/$name\.phrd.vcf $home\/Z2_VCFphrd/$name\.phrd.vcf
+# 	cp $path\/$name\/4_Mapping_$refname/Mapping/$name\.biasF.vcf $home\/Z3_VCFbiasF/$name\.biasF.vcf
+# 	cp $path\/$name\/4_Mapping_$refname/Mapping/$name\.phageD.vcf $home\/Z4_VCFphageD/$name\.phageD.vcf
+# 	)
+# 	date +"%d-%b-%Y %r"
+# done
+
+
+

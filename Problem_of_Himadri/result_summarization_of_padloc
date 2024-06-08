@@ -1,0 +1,9 @@
+rawpath="/home/asus/Desktop/CHRF_Project/Problem_Solving_of_Colleagues_and_thesis_students/Problem_of_Himadri/PADLOC_result"
+header="ERR"
+
+for files in $rawpath\/$header*
+do
+	name=`basename $files`
+	echo $name
+	echo $files/\Padloc/$name\_contigs_padloc.csv
+done

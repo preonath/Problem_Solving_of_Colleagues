@@ -1,0 +1,90 @@
+>Feature NZ_JBAMCA010000027.1
+85	984	CDS
+			gene	folE2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01527_B
+			locus_tag	NZ_JBAMCA010000027_00001
+			product	GTP cyclohydrolase FolE2
+974	1534	CDS
+			db_xref	COG:COG0663
+			gene	ccmM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q03513
+			locus_tag	NZ_JBAMCA010000027_00002
+			product	Carbon dioxide concentrating mechanism protein CcmM
+1664	2530	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000027_00003
+			product	hypothetical protein
+3356	2547	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000027_00004
+			product	hypothetical protein
+4199	3372	CDS
+			gene	mntB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55282
+			locus_tag	NZ_JBAMCA010000027_00005
+			product	Manganese transport system membrane protein MntB
+5053	4193	CDS
+			gene	mntB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55282
+			locus_tag	NZ_JBAMCA010000027_00006
+			product	Manganese transport system membrane protein MntB
+5871	5050	CDS
+			db_xref	COG:COG1121
+			gene	mntB_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34338
+			locus_tag	NZ_JBAMCA010000027_00007
+			product	Manganese transport system ATP-binding protein MntB
+6789	5875	CDS
+			db_xref	COG:COG0803
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q57449
+			locus_tag	NZ_JBAMCA010000027_00008
+			product	putative periplasmic iron-binding protein
+7048	9000	CDS
+			EC_number	6.1.1.3
+			db_xref	COG:COG0441
+			gene	thrS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8M3
+			locus_tag	NZ_JBAMCA010000027_00009
+			product	Threonine--tRNA ligase
+8993	9844	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000027_00010
+			product	hypothetical protein
+9841	11187	CDS
+			EC_number	3.5.2.5
+			db_xref	COG:COG0044
+			gene	allB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77671
+			locus_tag	NZ_JBAMCA010000027_00011
+			product	Allantoinase
+11248	12270	CDS
+			EC_number	4.2.1.24
+			db_xref	COG:COG0113
+			gene	hemB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q59643
+			locus_tag	NZ_JBAMCA010000027_00012
+			product	Delta-aminolevulinic acid dehydratase
+12423	12758	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000027_00013
+			product	hypothetical protein
+12800	13984	CDS
+			EC_number	2.1.1.61
+			gene	mnmC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01102
+			locus_tag	NZ_JBAMCA010000027_00014
+			product	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+14348	14602	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000027_00015
+			product	hypothetical protein

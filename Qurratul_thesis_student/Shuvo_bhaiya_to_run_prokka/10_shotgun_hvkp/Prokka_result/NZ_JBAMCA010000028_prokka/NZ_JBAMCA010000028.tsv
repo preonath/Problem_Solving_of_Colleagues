@@ -1,0 +1,40 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000028_00001	CDS	852	hpcB	1.13.11.15	COG3384	3,4-dihydroxyphenylacetate 2,3-dioxygenase
+NZ_JBAMCA010000028_00002	CDS	1467	betB	1.2.1.8	COG1012	NAD/NADP-dependent betaine aldehyde dehydrogenase
+NZ_JBAMCA010000028_00003	CDS	765	hpcE_1		COG0179	Homoprotocatechuate catabolism bifunctional isomerase/decarboxylase
+NZ_JBAMCA010000028_00004	CDS	633	hpcE_2		COG0179	Homoprotocatechuate catabolism bifunctional isomerase/decarboxylase
+NZ_JBAMCA010000028_00005	CDS	441	farR			HTH-type transcriptional regulator FarR
+NZ_JBAMCA010000028_00006	CDS	330				hypothetical protein
+NZ_JBAMCA010000028_00007	CDS	288				hypothetical protein
+NZ_JBAMCA010000028_00008	CDS	1017	lhpD	1.5.1.21	COG2055	Delta(1)-pyrroline-2-carboxylate/Delta(1)-piperideine-2-carboxylate reductase
+NZ_JBAMCA010000028_00009	CDS	1221		4.1.2.42		D-threonine aldolase
+NZ_JBAMCA010000028_00010	CDS	1440	dan	3.5.1.81		D-aminoacylase
+NZ_JBAMCA010000028_00011	CDS	393	tdcF	3.5.4.-	COG0251	Putative reactive intermediate deaminase TdcF
+NZ_JBAMCA010000028_00012	CDS	1494	opuE		COG0591	Osmoregulated proline transporter OpuE
+NZ_JBAMCA010000028_00013	CDS	873	dgoK1	2.7.1.58	COG3734	putative 2-dehydro-3-deoxygalactonokinase DgoK1
+NZ_JBAMCA010000028_00014	CDS	600	dgoA	4.1.2.21	COG0800	2-dehydro-3-deoxy-6-phosphogalactonate aldolase
+NZ_JBAMCA010000028_00015	CDS	864	hexR		COG1737	HTH-type transcriptional regulator HexR
+NZ_JBAMCA010000028_00016	CDS	534				hypothetical protein
+NZ_JBAMCA010000028_00017	CDS	831	mshD	2.3.1.189		Mycothiol acetyltransferase
+NZ_JBAMCA010000028_00018	CDS	2766	norR			Anaerobic nitric oxide reductase transcription regulator NorR
+NZ_JBAMCA010000028_00019	CDS	423				hypothetical protein
+NZ_JBAMCA010000028_00020	CDS	471	sorB	2.7.1.206	COG3444	PTS system sorbose-specific EIIB component
+NZ_JBAMCA010000028_00021	CDS	780	agaC		COG3715	N-acetylgalactosamine permease IIC component 1
+NZ_JBAMCA010000028_00022	CDS	852	manZ		COG3716	PTS system mannose-specific EIID component
+NZ_JBAMCA010000028_00023	CDS	1062	glmS	2.6.1.16	COG0449	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+NZ_JBAMCA010000028_00024	CDS	1011	frlB	3.5.-.-	COG2222	Fructosamine deglycase FrlB
+NZ_JBAMCA010000028_00025	CDS	939				ISNCY family transposase ISRor2
+NZ_JBAMCA010000028_00026	CDS	2292	mdoB	2.7.8.20		Phosphoglycerol transferase I
+NZ_JBAMCA010000028_00027	CDS	492				hypothetical protein
+NZ_JBAMCA010000028_00028	CDS	744	dnaC		COG1484	DNA replication protein DnaC
+NZ_JBAMCA010000028_00029	CDS	540	dnaT			Primosomal protein 1
+NZ_JBAMCA010000028_00030	CDS	474				hypothetical protein
+NZ_JBAMCA010000028_00031	CDS	777	yjjP		COG2966	Inner membrane protein YjjP
+NZ_JBAMCA010000028_00032	CDS	1185	pobA	1.14.13.2	COG0654	p-hydroxybenzoate hydroxylase
+NZ_JBAMCA010000028_00033	CDS	882	rhaR			HTH-type transcriptional activator RhaR
+NZ_JBAMCA010000028_00034	CDS	723	yjjQ			Putative transcription factor YjjQ
+NZ_JBAMCA010000028_00035	CDS	675	bglJ		COG2197	Transcriptional activator protein BglJ
+NZ_JBAMCA010000028_00036	CDS	459				hypothetical protein
+NZ_JBAMCA010000028_00037	CDS	1344	licC		COG1455	Lichenan permease IIC component
+NZ_JBAMCA010000028_00038	CDS	789	fhuF		COG4114	Ferric iron reductase protein FhuF
+NZ_JBAMCA010000028_00039	CDS	150				hypothetical protein

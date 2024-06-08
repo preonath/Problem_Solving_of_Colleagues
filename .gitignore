@@ -19,4 +19,11 @@ rad.json
 #License-file
 *.flf
 #Test results file
-TestResults.xml
+TestResults.xml*.log
+*.tmp
+*.log
+Problem_of_Himadri/RSV_data_entry/Updated_Pool.csv
+Problem_of_Shafi/Moraxella/output/myAnalysis.raxml.rba
+Problem_of_Shafi/Moraxella/output/core.full.aln
+Problem_of_Shafi/Moraxella/output/clean.full.aln
+Dengue_Seperate_files_16095_v1/dengue.fasta

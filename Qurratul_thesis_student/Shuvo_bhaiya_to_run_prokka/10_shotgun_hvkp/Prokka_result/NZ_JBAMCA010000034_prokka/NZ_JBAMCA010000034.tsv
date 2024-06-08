@@ -1,0 +1,5 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000034_00001	CDS	1188	atsB	1.1.99.-	COG0641	Anaerobic sulfatase-maturating enzyme
+NZ_JBAMCA010000034_00002	CDS	1734	atsA	3.1.6.1	COG3119	Arylsulfatase
+NZ_JBAMCA010000034_00003	CDS	777	fabG	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NZ_JBAMCA010000034_00004	CDS	792	moaF			Protein MoaF

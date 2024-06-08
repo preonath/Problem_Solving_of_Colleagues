@@ -1,0 +1,24 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000026_00001	CDS	1122	roxA	1.14.11.47	COG2850	50S ribosomal protein L16 3-hydroxylase
+NZ_JBAMCA010000026_00002	CDS	534				hypothetical protein
+NZ_JBAMCA010000026_00003	CDS	267				hypothetical protein
+NZ_JBAMCA010000026_00004	CDS	1434	cusS	2.7.13.3	COG0642	Sensor histidine kinase CusS
+NZ_JBAMCA010000026_00005	CDS	684	cusR		COG0745	Transcriptional regulatory protein CusR
+NZ_JBAMCA010000026_00006	CDS	1386	cusC		COG1538	Cation efflux system protein CusC
+NZ_JBAMCA010000026_00007	CDS	345	cusF		COG5569	Cation efflux system protein CusF
+NZ_JBAMCA010000026_00008	CDS	1263	cusB			Cation efflux system protein CusB
+NZ_JBAMCA010000026_00009	CDS	3150	cusA		COG3696	Cation efflux system protein CusA
+NZ_JBAMCA010000026_00010	CDS	348				hypothetical protein
+NZ_JBAMCA010000026_00011	CDS	534	blc		COG3040	Outer membrane lipoprotein Blc
+NZ_JBAMCA010000026_00012	CDS	729	mlrA		COG0789	HTH-type transcriptional regulator MlrA
+NZ_JBAMCA010000026_00013	CDS	435				hypothetical protein
+NZ_JBAMCA010000026_00014	CDS	720				hypothetical protein
+NZ_JBAMCA010000026_00015	CDS	1260				hypothetical protein
+NZ_JBAMCA010000026_00016	CDS	723				hypothetical protein
+NZ_JBAMCA010000026_00017	CDS	1221	ufaA1	2.1.1.-	COG2230	Tuberculostearic acid methyltransferase UfaA1
+NZ_JBAMCA010000026_00018	CDS	486				hypothetical protein
+NZ_JBAMCA010000026_00019	CDS	525				hypothetical protein
+NZ_JBAMCA010000026_00020	CDS	552				hypothetical protein
+NZ_JBAMCA010000026_00021	CDS	960				hypothetical protein
+NZ_JBAMCA010000026_00022	CDS	522				IS3 family transposase ISKpn1
+NZ_JBAMCA010000026_00023	CDS	786				IS3 family transposase ISKpn1

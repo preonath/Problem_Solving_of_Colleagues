@@ -1,0 +1,57 @@
+import pandas as pd
+
+# Define the chunk size
+chunk_size = 10000
+
+# Load the smaller dataframe into memory (df_rib)
+df_rib = pd.read_csv('RIB.csv')
+
+# Strip whitespace from column names
+df_rib.columns = df_rib.columns.str.strip()
+
+# Ensure 'Lab_ID' and 'Results' columns are properly formatted
+df_rib['Lab_ID'] = df_rib['Lab_ID'].astype(str).str.strip()
+df_rib['Results'] = df_rib['Results'].astype(str).str.strip()
+
+# Create a dictionary for quick lookup from df_rib
+results_dict = df_rib.set_index('Lab_ID')['Results'].to_dict()
+
+# Print the first few items from the dictionary to validate
+print("Sample of results_dict:", list(results_dict.items())[:5])
+
+# Function to process each chunk
+def process_chunk(chunk):
+    # Strip whitespace from column names in the chunk
+    chunk.columns = chunk.columns.str.strip()
+
+    # Ensure 'Sample_ID' column values are properly formatted
+    chunk['Sample_ID'] = chunk['Sample_ID'].astype(str).str.strip()
+
+    # Create the PCR_Results column using the lookup dictionary
+    chunk['PCR_Results'] = chunk['Sample_ID'].map(results_dict)
+    
+    # Debug: Print first few rows of chunk after processing
+    print("Processed chunk sample:")
+    print(chunk.head())
+
+    return chunk
+
+# Process df_pool in chunks and write the output to a new CSV file
+output_file = 'Pooled_with_Results.csv'
+with pd.read_csv('Pool.csv', chunksize=chunk_size) as reader:
+    for i, chunk in enumerate(reader):
+        # Debug: Print first few rows of chunk before processing
+        print(f"Chunk {i} sample before processing:")
+        print(chunk.head())
+
+        # Process the chunk
+        chunk = process_chunk(chunk)
+
+        # Append the chunk to the output file
+        if i == 0:
+            chunk.to_csv(output_file, index=False, mode='w')
+        else:
+            chunk.to_csv(output_file, index=False, mode='a', header=False)
+
+print(f'Processing complete. The result is saved to {output_file}')
+

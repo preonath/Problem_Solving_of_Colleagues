@@ -1,0 +1,11 @@
+>Feature NZ_JBAMCA010000035.1
+16	1872	CDS
+			gene	angR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q6W4T3
+			locus_tag	NZ_JBAMCA010000035_00001
+			product	Anguibactin system regulator
+2743	2450	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000035_00002
+			product	hypothetical protein

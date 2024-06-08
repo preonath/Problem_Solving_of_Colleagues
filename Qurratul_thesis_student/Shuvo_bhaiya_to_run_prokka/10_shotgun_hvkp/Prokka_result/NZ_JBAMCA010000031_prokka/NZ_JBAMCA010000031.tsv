@@ -1,0 +1,18 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000031_00001	CDS	1434				hypothetical protein
+NZ_JBAMCA010000031_00002	CDS	1683				hypothetical protein
+NZ_JBAMCA010000031_00003	tRNA	85				tRNA-Leu(caa)
+NZ_JBAMCA010000031_00004	CDS	681	can	4.2.1.1	COG0288	Carbonic anhydrase 2
+NZ_JBAMCA010000031_00005	CDS	1470	dauA		COG0659	C4-dicarboxylic acid transporter DauA
+NZ_JBAMCA010000031_00006	CDS	1020	ahr	1.1.1.2	COG1064	Aldehyde reductase Ahr
+NZ_JBAMCA010000031_00007	CDS	873	ugpA		COG1175	sn-glycerol-3-phosphate transport system permease protein UgpA
+NZ_JBAMCA010000031_00008	CDS	888	ngcG		COG0395	Diacetylchitobiose uptake system permease protein NgcG
+NZ_JBAMCA010000031_00009	CDS	825	cpdA	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NZ_JBAMCA010000031_00010	CDS	1071	ugpC	7.6.2.10	COG3839	sn-glycerol-3-phosphate import ATP-binding protein UgpC
+NZ_JBAMCA010000031_00011	CDS	1311	ugpB		COG1653	sn-glycerol-3-phosphate-binding periplasmic protein UgpB
+NZ_JBAMCA010000031_00012	CDS	900	iolE	4.2.1.44	COG1082	Inosose dehydratase
+NZ_JBAMCA010000031_00013	CDS	885				hypothetical protein
+NZ_JBAMCA010000031_00014	CDS	1014	iolG	1.1.1.18	COG0673	Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase
+NZ_JBAMCA010000031_00015	CDS	1941	iolD	3.7.1.22	COG3962	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase
+NZ_JBAMCA010000031_00016	CDS	1914	iolC	2.7.1.92		5-dehydro-2-deoxygluconokinase
+NZ_JBAMCA010000031_00017	CDS	858	hexR		COG1737	HTH-type transcriptional regulator HexR

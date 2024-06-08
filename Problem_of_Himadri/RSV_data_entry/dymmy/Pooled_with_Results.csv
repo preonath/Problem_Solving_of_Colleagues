@@ -1,0 +1,5 @@
+PCR SL,Ext. Batch SL,Pool Set,Sample_ID,Batch No,RSV,FluA,FluB,Result,PCR_Results
+1,1,P-1,12403015541,245 Zm,,,,Negative,
+2,2,P-1,12403015651,245 Zm,,25.9,,Positive,
+3,3,P-1,12403014652,245 Zm,,,10.3,Positive,
+4,4,P-1,12403013713,245 Zm,19.4,,,Positive,

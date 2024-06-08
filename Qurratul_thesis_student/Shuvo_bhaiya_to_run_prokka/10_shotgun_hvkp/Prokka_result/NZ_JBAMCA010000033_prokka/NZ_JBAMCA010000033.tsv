@@ -1,0 +1,9 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NZ_JBAMCA010000033_00001	CDS	1110				hypothetical protein
+NZ_JBAMCA010000033_00002	tRNA	76				tRNA-Thr(ggt)
+NZ_JBAMCA010000033_00003	tRNA	75				tRNA-Gly(tcc)
+NZ_JBAMCA010000033_00004	tRNA	85				tRNA-Tyr(gta)
+NZ_JBAMCA010000033_00005	tRNA	76				tRNA-Thr(tgt)
+NZ_JBAMCA010000033_00006	CDS	927	coaA	2.7.1.33		Pantothenate kinase
+NZ_JBAMCA010000033_00007	CDS	963	birA	6.3.4.15	COG0340	Bifunctional ligase/repressor BirA
+NZ_JBAMCA010000033_00008	CDS	1029	murB	1.3.1.98	COG0812	UDP-N-acetylenolpyruvoylglucosamine reductase

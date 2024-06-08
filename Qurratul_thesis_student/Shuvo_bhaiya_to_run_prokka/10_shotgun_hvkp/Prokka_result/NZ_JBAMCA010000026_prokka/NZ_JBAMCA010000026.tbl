@@ -1,0 +1,127 @@
+>Feature NZ_JBAMCA010000026.1
+392	1513	CDS
+			EC_number	1.14.11.47
+			db_xref	COG:COG2850
+			gene	roxA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27431
+			locus_tag	NZ_JBAMCA010000026_00001
+			product	50S ribosomal protein L16 3-hydroxylase
+2094	1561	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00002
+			product	hypothetical protein
+2371	2105	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00003
+			product	hypothetical protein
+3907	2474	CDS
+			EC_number	2.7.13.3
+			db_xref	COG:COG0642
+			gene	cusS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77485
+			locus_tag	NZ_JBAMCA010000026_00004
+			product	Sensor histidine kinase CusS
+4580	3897	CDS
+			db_xref	COG:COG0745
+			gene	cusR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACZ8
+			locus_tag	NZ_JBAMCA010000026_00005
+			product	Transcriptional regulatory protein CusR
+4752	6137	CDS
+			db_xref	COG:COG1538
+			gene	cusC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77211
+			locus_tag	NZ_JBAMCA010000026_00006
+			product	Cation efflux system protein CusC
+6155	6499	CDS
+			db_xref	COG:COG5569
+			gene	cusF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77214
+			locus_tag	NZ_JBAMCA010000026_00007
+			product	Cation efflux system protein CusF
+6545	7807	CDS
+			gene	cusB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77239
+			locus_tag	NZ_JBAMCA010000026_00008
+			product	Cation efflux system protein CusB
+7819	10968	CDS
+			db_xref	COG:COG3696
+			gene	cusA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P38054
+			locus_tag	NZ_JBAMCA010000026_00009
+			product	Cation efflux system protein CusA
+11041	11388	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00010
+			product	hypothetical protein
+11931	11398	CDS
+			db_xref	COG:COG3040
+			gene	blc
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A901
+			locus_tag	NZ_JBAMCA010000026_00011
+			product	Outer membrane lipoprotein Blc
+12048	12776	CDS
+			db_xref	COG:COG0789
+			gene	mlrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P33358
+			locus_tag	NZ_JBAMCA010000026_00012
+			product	HTH-type transcriptional regulator MlrA
+13009	13443	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00013
+			product	hypothetical protein
+13440	14159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00014
+			product	hypothetical protein
+14156	15415	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00015
+			product	hypothetical protein
+15417	16139	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00016
+			product	hypothetical protein
+16136	17356	CDS
+			EC_number	2.1.1.-
+			db_xref	COG:COG2230
+			gene	ufaA1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O53732
+			locus_tag	NZ_JBAMCA010000026_00017
+			product	Tuberculostearic acid methyltransferase UfaA1
+17353	17838	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00018
+			product	hypothetical protein
+17835	18359	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00019
+			product	hypothetical protein
+18356	18907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00020
+			product	hypothetical protein
+18904	19863	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	NZ_JBAMCA010000026_00021
+			product	hypothetical protein
+19949	20470	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISKpn1
+			locus_tag	NZ_JBAMCA010000026_00022
+			product	IS3 family transposase ISKpn1
+20527	21312	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISKpn1
+			locus_tag	NZ_JBAMCA010000026_00023
+			product	IS3 family transposase ISKpn1

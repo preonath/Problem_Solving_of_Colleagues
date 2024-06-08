@@ -1,0 +1,562 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 4 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 25 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2024 } } } ,
+        create-date
+          std {
+            year 2024 ,
+            month 4 ,
+            day 25 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000033.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 5470 ,
+            seq-data
+              iupacna "CCGCCTTCACGGATTGCGAAACGCAGACCGTCGTCCATCGCGATCGGGTGGATCA
+GGGTAACAACCATTTTGATGTTGTCGCCCGGCATTACCATCTCTACGCCTTCCGGCAGTTCGATGGTGCCAGTCACGT
+CAGTAGTACGGAAGTAGAACTGCGGACGGTAGCCTTTGAAGAACGGAGTATGACGGCCGCCTTCGTCTTTGGACAGGA
+TGTACACTTCAGATTCGAACTTGGTGTGCGGGTTGATGGTGCCCGGCTTAGCCAGTACCTGACCACGTTCGATTTCTT
+CACGTTTGATACCACGCAGCAGAACACCTACGTTCTCACCAGCACGGCCTTCGTCCAGCAGTTTGCGGAACATTTCAA
+CGCCAGTACAGGTGGTTTTCGCGGTTTCTTTGATACCAACGATTTCAACTTCTTCACCTACTTTGATGATACCGCGCT
+CTACACGACCGGTAACAACGGTACCACGACCGGAGATGGAGAATACGTCTTCGATCGGCAGCAGGAACGGCTTGTCAA
+TCGCACGCTCTGGTTCCGGGATATAGGTATCCAGGTGGCCAGCCAGTTCGATGATTTTCGCTTCCCACTCTGCGTCGC
+CTTCCAGCGCTTTCAGAGCAGAACCACGAACGATCGGAGTGTCGTCGCCCGGGAAATCGTACTGAGACAGCAGTTCAC
+GAACTTCCATCTCAACCAGTTCCAGCAGCTCTTCGTCATCAACCATGTCGCATTTGTTCAGGAACACGATGATGTACG
+GAACGCCTACCTGACGACCCAGCAGGATGTGCTCACGAGTCTGCGGCATCGGGCCGTCAGTCGCAGCAACAACCAGGA
+TCGCGCCGTCCATCTGCGCAGCACCGGTGATCATGTTTTTAACATAGTCGGCGTGGCCCGGGCAGTCTACGTGCGCAT
+AGTGGCGAGTCGGGGTGTCATATTCAACGTGAGAGGTGTTGATGGTGATACCACGAGCTTTTTCTTCCGGCGCGTTAT
+CGATCTGATCGAATGCGCGAGCGGAACCACCGTAGGTTTTAGCCAGTACGGTAGTGATGGCAGCGGTCAGCGTTGTTT
+TACCATGGTCAACGTGGCCGATAGTACCGACGTTAACGTGCGGTTTTGTACGTTCAAACTTTTCTTTAGACATCGATT
+GTCCCTCTAAGACACGGATAAATCGGTGATATCACCACATCAACCAGGCAACATGCCCGACTTGTTGAATGAACATAA
+CAGAAGAGAAACAGGGAAGGAGAGAAAAGAAGTGGTGCTGATACCCAGAGTCGAACTGGGGACCTCACCCTTACCAAG
+GGTGCGCTCTACCAACTGAGCCATATCAGCACGTCTGGAGCGGGCAGCGGGAATCGAACCCGCATCATCAGCTTGGAA
+GGCTGAGGTAATAGCCATTATACGATGCCCGCATCCTGAAACTCGGCTACCCAGTTCTTTCTGTAATACTAAAGAGAC
+TGCTCTCTTTAGTATTGAGCTGATTAGTTTACCCAACCAACTCCGGCTCCGCAAAGCGTCGCCAGAAAGTGGTGGTGG
+GGGAAGGATTCGAACCTTCGAAGTCGATGACGGCAGATTTACAGTCTGCTCCCTTTGGCCGCTCGGGAACCCCACCCA
+AATTGTTATGGTGCCGACTACCGGAATCGAACTGGTGACCTACTGATTACAAGTCAGTTGCTCTACCTACTGAGCTAA
+GTCGGCATCAAGTAGCGCGCATTCTAGGGAGAGGAGCGAGTTCATGCAACTAAAAATTTGCATAAAACGTTCTCTTGC
+TCACATTTTGTGCTCTCACGCGAAAAAACGGTGTAATTTCAAGCAGCGGAGTGCAAATATTCGCCAATAATTCGGCAC
+TTCAGGCGCTGTCCGATCATCTCCGGTTACCTCTATCGCATGCTGACCGCTGACGGAAAGGATTCAGGCCGCTAGCCT
+AGCCTGTTAGCAAAGGCCATGCTTTGCAAAGAATAAGAAACTTATTCTTCTCTTGTGATGCTGGCGCGAGAAAGCAGC
+ATTCAATGAGTTTTTTTCTTATTATTCCCGGCAATCTGGTGTTACCCTCCTGCCCATTGTCCTGATTAACTCGTGTGA
+AGCATCACCGTTTCAAGGTATTCGGTGATAGTAAGAACATGCTTATGAGCCAAAAAGAGCAGACGTTAATGACACCGT
+ACCTACAATTTAACCGCCACCAATGGGCTGCACTTCGTGATTCTGTCCCGATGACGTTAACCGAGGAAGAAATCACGC
+GGTTAAAAGGCATCAACGAAGATCTCTCTCTGGAAGAGGTTGCCGAGATCTATTTGCCGCTGTCGCGTTTGCTCAACT
+TCTATATCAGTTCTAACCTGCGTCGCCAGGCTGTTCTCGAACAATTTCTTGGCACCAATGGTCAGCGAATTCCCTATA
+TTATCAGTATCGCTGGCAGCGTTGCGGTAGGAAAAAGCACCACCGCCCGCGTTCTGCAAGCTTTGCTTAGTCGTTGGC
+CGGAGCATCGCCATGTCGAACTCATTACCACCGACGGTTTTTTGCACCCTAACTCGGTTTTAAAAGAACGTGGGTTAA
+TGAAGAAAAAAGGCTTTCCGCAGTCCTATGATATGCATCGCCTGGTGAAGTTTGTCTCCGATCTCAAATCAGGGGTAC
+CGCAGGCAACCGCGCCGGTTTATTCCCATCTGATTTATGATGTTATTCCCAATGGTGACAAAACCGTCGCGCAACCGG
+ATATTTTAATTCTTGAAGGGCTGAATGTTCTGCAAAGTGGAATGGATTATCCGCACGATCCCCATCATGTATTCGTTT
+CCGATTTTGTCGACTTTTCTATTTATGTCGATGCCCCGGAAGAATTATTGAAAAGCTGGTATATCAACCGCTTTCTTA
+AATTCCGGGAAGGGGCGTTTACCGATCCGGATTCCTATTTCCATAATTACGCTAAGCTCTCGAAGGAAGAAGCGGTAG
+ATATTGCCACTTCGCTATGGAATGAAATCAACCTAATGAATCTTAAAGAAAATATCCTTCCAACTCGCGAGCGCGCCA
+GCCTGATCATGACTAAGAGCGCCAATCACTCAGTGAATCAGGTACGCTTACGTAAATAAAATAAGGGAGCCGAAGCTC
+CCTTTTTTATTCTGCACTGCGCAATGATATTTCACCACCCACCCAGGCTTTTATTACACCATCCTGCTCCAGCAATAG
+TGCGCCCTGGGCGTCAATGCCACGCGAAATGCCGTAAATTTCTTTATCACCGATAATCAGTTTCACCGGGCGATGAAT
+AAAGTTATCCAGTTTTTCCCAGCGCGGTAGATAGGGAGCCAATCCTTCCTGCTCGAACAGCTCCAGTCCCAGGCGCAG
+CTCTTTAATCAGGCGCGCGGCGAGGAGGTTACGGTCGATGACCACCCCCGCTTCCTGAAGGCTGATCCACCCCTGATT
+GACGACATCAGACTCCACGCGACGCATCACAAGGTTGATACCCGCGCCGCTGACGATTTGTGCGGCATCGCCCGTTTT
+CCCCGTCAGTTCCACGAGGATCCCTGACAGCTTACGATCCTGCAGGTAAATATCGTTTGGCCATTTCACGCGAACCTG
+TTCGGCCCCGAGCTGCTGCAGAACTTCAGCGATCACAATACCGATCACCAGGCTTAGGCCAATAGCCGCTGCCGGGCC
+CTGCTCCAGACGCCAGTACATCGAGAGATAGAGATTCGCGCCAAAGGGCGAAAACCATTTTCTGCCTCGCCGGCCTCG
+CCCTGCTTGCTGATATTCAGCCACACAGGCATCTCCGGACGTCAGCTCATCAAGCCTGTCCAGCAAATACTGGTTAGT
+AGAGTCGATGACGGGAAGGACCGTCACTCGACCATGGTCTATCTCTTGAGAAATCTTTTTCTCATCTAATAGATGAAT
+AGGCTCCGGCAGGCTGTAACCCTTGCCCGGCACAGTAAACACATCGACGCCCCAGTCACGTAAGGTCTGGATGTGCTT
+ATTAATCGCCGCCCGGCTCATGCCTAACTGCTCACCAAGCTGTTCGCCAGAGTGAAACTCGCCATCAGCAAGGATAGA
+AATTAGCGTTAAAGGGATAGTATGGTCTTTCACGCAATGCTCTCCTCTGCGTTGACTTCACCATGCGTGCCAATGAAG
+CGCACCTCGGGCTGAAGCCATACATCGAATTTCGCACCCACCCGCTGGCGAACATAATGAGCAAGTTTTACCACATCC
+TCGCTGGTCGCTCGATCTTCATTAATCAGTACCAGCGCCTGCTGTCGATGGACGGCCGCGCCGCCGATGCGTTGTCCT
+TTGAGCTCACATTGATCGATTAGCCAGCCAGCGGCCAGCTTGACGCTGCCATTTGCCTGCGGATAGTGCGGTGCATGA
+GGGAACTGCGCCAGCAGCGCTTTCGCAACCTGAGCGCTGACGATCGGGTTCTTAAAAAAGCTGCCGGCATTACCGTTA
+ATCTTTGGATCCGGCAATTTAGTCATTCGCATATGACAGACCGCATCAAATACCTGCTGCGGCGTGACGGTCTGCGGA
+TCGAGACGCGTTAAATCACCGTAACTCAGTACAGGCTGCCATGTTTTCGCTAACGATAAGCCAATCGCAACGATGGCA
+TAGCGGTCCTGATATTCATGTTTGAAGATACTGTCGCGATAGCCAAAACGGCATTCCGCGGCTGAAAGACGTTGCTTA
+CGCCCGGTTTCCAGCTCAATGCAGTCAACATATTCGCAAACCCGCTGTAGCTCAACGCCGTAGGCGCCAATATTCTGG
+ATCGGCGAAGATCCTGCGCAGCCAGGGATTAACGCCAGATTTTCCAGACCTGGCATCGCATGCTGTAGCGTGAACTGC
+ACCAACTGATGCCAGTTTTCGCCGGCGCCGACGTGCAAGCGCCAGGCGTCCGGCGTTTCGCTCACCTCGATCCCCATA
+ATCCGGTTGAGGATCACCGTACCGGCATAGTCGTTCAGAAACAGGACATTACTGCCTTCCCCAAGGATCAGCGTGGGT
+TCGCCTGCCGCGGCAGCGGTTTGCCAGGCGCTTAGCAACTGTTGCTCAGTTTCGGCGCGTACTATCGTCTTGGCGAAG
+CGTTCAATGCCAAAGGTATTCCAGGGTTTGAGGGAGTGGTTCATAGTAGCTTCCTGATGCAAAATCGGCGTTAGTTTA
+TCGTATCTGGCGGGGGAAGGCTTGTCTGATTACAGGGGCAATGATATTGCGGGGCGTTACCGGTGGTGATGTGGTGTA
+CCGGTGCGGGCTACAGAACGCGACAGGCCCGTAGCCCCGGTAAGCGCAGCGCCACCGGGGAGACATGCCGGCACGCTG
+GCCGGACGACAGAAACGCAAAAAGCCCATCCGGCAGGATGGGCTCTTCACTTGTTTGATGCCTGGCAGTTTATGGCGG
+GCGTCCTGCCCGCCACCCTCCGGGCCGTTGCTGCGCAACGTTCAAATCCGCTCCCGGCGGATTTGTCCTACTCTGGAG
+AGCGCTCACCGACAAACAACAGATAAAACAAAA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 5 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 84 } } ,
+                    comment "tRNA-Thr(ggt)" ,
+                    location
+                      int {
+                        from 1257 ,
+                        to 1332 ,
+                        strand minus ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "NZ_JBAMCA010000033_00002" } } } } ,
+                  {
+                    id
+                      local
+                        id 6 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 71 } } ,
+                    comment "tRNA-Gly(tcc)" ,
+                    location
+                      int {
+                        from 1338 ,
+                        to 1412 ,
+                        strand minus ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "NZ_JBAMCA010000033_00003" } } } } ,
+                  {
+                    id
+                      local
+                        id 7 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 89 } } ,
+                    comment "tRNA-Tyr(gta)" ,
+                    location
+                      int {
+                        from 1528 ,
+                        to 1612 ,
+                        strand minus ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "NZ_JBAMCA010000033_00004" } } } } ,
+                  {
+                    id
+                      local
+                        id 8 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 84 } } ,
+                    comment "tRNA-Thr(tgt)" ,
+                    location
+                      int {
+                        from 1623 ,
+                        to 1698 ,
+                        strand minus ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "NZ_JBAMCA010000033_00005" } } } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000033.1_1" } ,
+          descr {
+            title "hypothetical protein NZ_JBAMCA010000033_00001 [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 369 ,
+            seq-data
+              ncbieaa "MDQGNNHFDVVARHYHLYAFRQFDGASHVSSTEVELRTVAFEERSMTAAFVFGQD
+VHFRFELGVRVDGARLSQYLTTFDFFTFDTTQQNTYVLTSTAFVQQFAEHFNASTGGFRGFFDTNDFNFFTYFDDTAL
+YTTGNNGTTTGDGEYVFDRQQERLVNRTLWFRDIGIQVASQFDDFRFPLCVAFQRFQSRTTNDRSVVAREIVLRQQFT
+NFHLNQFQQLFVINHVAFVQEHDDVRNAYLTTQQDVLTSLRHRAVSRSNNQDRAVHLRSTGDHVFNIVGVARAVYVRI
+VASRGVIFNVRGVDGDTTSFFFRRVIDLIECASGTTVGFSQYGSDGSGQRCFTMVNVADSTDVNVRFCTFKLFFRHRL
+SL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 9 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 368 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000033.1_2" } ,
+          descr {
+            title "Pantothenate kinase [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 308 ,
+            seq-data
+              ncbieaa "MTPYLQFNRHQWAALRDSVPMTLTEEEITRLKGINEDLSLEEVAEIYLPLSRLLN
+FYISSNLRRQAVLEQFLGTNGQRIPYIISIAGSVAVGKSTTARVLQALLSRWPEHRHVELITTDGFLHPNSVLKERGL
+MKKKGFPQSYDMHRLVKFVSDLKSGVPQATAPVYSHLIYDVIPNGDKTVAQPDILILEGLNVLQSGMDYPHDPHHVFV
+SDFVDFSIYVDAPEELLKSWYINRFLKFREGAFTDPDSYFHNYAKLSKEEAVDIATSLWNEINLMNLKENILPTRERA
+SLIMTKSANHSVNQVRLRK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "Pantothenate kinase" } ,
+                        ec {
+                          "2.7.1.33" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 307 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000033.1_3" } ,
+          descr {
+            title "Bifunctional ligase/repressor BirA [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 320 ,
+            seq-data
+              ncbieaa "MKDHTIPLTLISILADGEFHSGEQLGEQLGMSRAAINKHIQTLRDWGVDVFTVPG
+KGYSLPEPIHLLDEKKISQEIDHGRVTVLPVIDSTNQYLLDRLDELTSGDACVAEYQQAGRGRRGRKWFSPFGANLYL
+SMYWRLEQGPAAAIGLSLVIGIVIAEVLQQLGAEQVRVKWPNDIYLQDRKLSGILVELTGKTGDAAQIVSGAGINLVM
+RRVESDVVNQGWISLQEAGVVIDRNLLAARLIKELRLGLELFEQEGLAPYLPRWEKLDNFIHRPVKLIIGDKEIYGIS
+RGIDAQGALLLEQDGVIKAWVGGEISLRSAE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "Bifunctional ligase/repressor BirA" } ,
+                        ec {
+                          "6.3.4.15" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 319 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000033.1_4" } ,
+          descr {
+            title "UDP-N-acetylenolpyruvoylglucosamine reductase [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 342 ,
+            seq-data
+              ncbieaa "MNHSLKPWNTFGIERFAKTIVRAETEQQLLSAWQTAAAAGEPTLILGEGSNVLFL
+NDYAGTVILNRIMGIEVSETPDAWRLHVGAGENWHQLVQFTLQHAMPGLENLALIPGCAGSSPIQNIGAYGVELQRVC
+EYVDCIELETGRKQRLSAAECRFGYRDSIFKHEYQDRYAIVAIGLSLAKTWQPVLSYGDLTRLDPQTVTPQQVFDAVC
+HMRMTKLPDPKINGNAGSFFKNPIVSAQVAKALLAQFPHAPHYPQANGSVKLAAGWLIDQCELKGQRIGGAAVHRQQA
+LVLINEDRATSEDVVKLAHYVRQRVGAKFDVWLQPEVRFIGTHGEVNAEESIA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "UDP-N-acetylenolpyruvoylglucosamine reductase" } ,
+                        ec {
+                          "1.3.1.98" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 341 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000033.1_4" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000033.1_1" ,
+                location
+                  int {
+                    from 47 ,
+                    to 1156 ,
+                    strand plus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000033.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "NZ_JBAMCA010000033_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000033.1_2" ,
+                location
+                  int {
+                    from 2151 ,
+                    to 3077 ,
+                    strand plus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000033.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:B5XYG3" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "coaA" ,
+                        locus-tag "NZ_JBAMCA010000033_00006" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000033.1_3" ,
+                location
+                  int {
+                    from 3103 ,
+                    to 4065 ,
+                    strand minus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000033.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P06709" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "birA" ,
+                        locus-tag "NZ_JBAMCA010000033_00007" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0340" } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000033.1_4" ,
+                location
+                  int {
+                    from 4062 ,
+                    to 5090 ,
+                    strand minus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000033.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P08373" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "murB" ,
+                        locus-tag "NZ_JBAMCA010000033_00008" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0812" } } } } } } } } }

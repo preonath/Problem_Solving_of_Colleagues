@@ -1,0 +1,8 @@
+Sl no,Collection Date,Study ID,Name,Phone no.,Relation with contact person,Lab_ID,,Collecting nurse ,Results ,Test date ,Informed results by call,Informed results by text,Name of RA,Remarks,Enroll in COI (Y/N),Reason for non enrollment,Linking done (Y/N)
+1,19/11/22,12403015651,elham,,,12403015541,Sick,,FluA(25.9),,,,,,,,Y
+2,19/11/22,12403014652,fariya,1730947159,father ,12403015651,,mahbuba ,FluB(10.3),21/11/2022,,Ok,Shahina,,Y,,Y
+3,19/11/22,12403013713,saifullah,1301757019,father ,12403014652,,mahbuba ,RSV (19.4),21/11/2022,,Ok,Shahina,,Y,,Y
+4,19/11/22,1070004622,anas,1711134089,father ,12211025691,,mahbuba ,RSV (19.70),21/11/2022,Ok,Ok,Shahina,,,,Y
+5,19/11/22,1070004623,avary,1304730485,father ,12211025711,,mahbuba ,Negative,21/11/2022,,Ok,Shahina,,,,Y
+6,19/11/22,1070004613,morsalin,,,,Discharge,,,,,,,,,,Y
+7,19/11/22,12403015541,surjo,1745063113,father ,12211025641,,mahbuba ,Negative,23/11/2022,,,,,Y,,Y

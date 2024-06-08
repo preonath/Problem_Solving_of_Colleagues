@@ -1,0 +1,447 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 4 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 25 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2024 } } } ,
+        create-date
+          std {
+            year 2024 ,
+            month 4 ,
+            day 25 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000034.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 5555 ,
+            seq-data
+              iupacna "GAACGGTCTGCGTTGTCGGGAAGATACGTGATCTGATCCTTCAACTCAGCAAAAG
+TTCGATTTATTCAACAAAACCACTTATACCCTTAACAGGATGCATTTAATTTTCGCCGCGGCTTAATCATGTGATTAC
+GCCTGACCCGCTGTTGCCAAAATAATATCAACAGTACCGGTCATTAACCGAGGATAAGCCGATGCTGAATATCGCCGC
+CCTGCGCCAGCAGCAAATTCCGCTGGCCGCTGAACCGCGCTCGCCGGTGCCGTTTCATATTCTGATGAAGCCGATTGG
+CCCCGCCTGCAATCTCGCCTGCCGCTATTGCTATTACCCGCAGGACGAAACGCCGGTCAACAAGATGGATGACGCGCG
+GCTGGAGCAGTTTATCCGCCGCTATATTGCCGCCCAGCCCGCCGGTGCGCGGGAAATCAACTTTGTCTGGCAGGGGGG
+CGAGCCGCTGCTGGCCGGCCTGAGCTTCTACAAAAAAGCGCTCGCCCTGCAGGCGCGCTATGCCCCCGACGGCGTGAC
+TATCAGCAACAGCCTGCAGACCAACGGGACGCTGATCAACGACGCATGGTGCCGACTGTTCCGCGAACATGGCTTTAT
+TATCGGGTTGAGCCTCGAAGGCAACGAAGCGCTGCAGGACTACCATCGTCCGGATAAACGCGGCCGGTCGACCTGGTC
+GGCGGCGCTGCGCGGCATTGACCTGCTCCATCAGCATCAGGTGGACTTTAATCTGCTGGTGGTGGTGCATAACGAGAT
+GGCGGCCCACGCGGCGGCGATTTATGACCGGCTGGTCAGCCTCGGCGCGCGCTATCTGCAGTTTCAGCCGCTGATGAG
+CGAAGGCGCGGCCCTGCGCGAAGGATACCAGCTCAGCGCCGATAACTGGGGACGTTTTATGGTCGGCATCTGGCGACA
+GTGGCGGAAGCGCTGCGATAGAGGGCGGGTGTTCGTTATCAATATCGAACAGGCGTGGGCGCAGTATTTCACTCATAC
+CAGCGGCAGCTGCGTGCACAGCGCCCGCTGCGGCAGCAACCTGGTGATGGAGCCCGACGGACAGCTCTACGCCTGCGA
+TCATCTGATCAACGCCGAACATCGGCTGGGTCGCCTTGACGAGCAGACGCTTGCCGCCGCAGTTGACGCCTCGGTGCA
+ACTGCCTTTCGGTCAGCAGAAAAGTCTGCGCCGCGAATGCCAGACTTGCTCGGTAAAAATGGTCTGCCAGGGCGGCTG
+CCCGGCGCATCTCAACGCCGCAGGCAACAACCGCCTCTGCGGAGGCTACTACCGCTTCTTTAGCGACATCCTCGCGCC
+AGTACGCCCCTTTTCCCGCGACCTTAACGGCCTGAAGGCCTGGCGGGCCGCGTTTGTTGGGACTGCGCATACTGCGTA
+GCGCCTTACCCTGATGATATCCCCCTCTGAACAGGAGAGTCAGTCGTGAACAAAAAAGCCATGGCCGCGGCGGTCAGC
+ATGATCCTCGCCGGTGGCGCGCACGCCGCGCAGCAGGAGCGTCCAAACGTCATCGTGATTATCGCCGATGATATGGGC
+TACTCGGACATCAGCCCCTTTGGCGGCGAGATCCCCACCCCCAATCTGCAGGCGATGGCCGAGCAGGGAATGCGCATG
+AGCCAGTATTACACCTCGCCGATGTCGGCCCCGGCGCGCTCAATGCTGCTCACCGGCAACAGTAACCAGCAGGCTGGG
+ATGGGCGGCATGTGGTGGTACGACAGCACCATTGGCAAGGAGGGCTACGAGCTGCGGCTGACCGACCGCGTCACCACC
+ATGGCCGAGCGCTTTAAAGACGCGGGGTATAACACCCTGATGGCCGGTAAATGGCACCTCGGTTTTGTTCCCGGCGCC
+ACGCCGAAAGATCGCGGCTTTAATCACGCCTTCGCCTTTATGGGCGGCGGCACCAGCCACTTTAACGACGCGATACCG
+CTGGGGACCGTTGAAGCCTTCCACACCTACTACACCCGCGACGGCGAGCGCGTCTCCCTACCGGATGATTTTTACTCC
+AGCGAAGCCTACGCCCGCCAGATGAACAGCTGGATTAAAGCGACGCCGAAGGAACAGCCGGTCTTCGCCTGGCTGGCC
+TTCACCGCCCCTCATGATCCCCTGCAGGCGCCGGACGAGTGGATTAAGCGCTTCAAAGGCCAGTATGAGCAGGGTTAC
+GCCGAGGTCTATCGCCAGCGCATCGCCCGCCTGAAAGCGCTGGGAATTATCCATGACGATACCCCGCTGCCGCATCTG
+GAGCTGGATAAAGAGTGGGAAGCGCTAACGCCAGAGCAGCAGAAATATACGGCGAAAGTGATGCAGGTGTATGCGGCG
+ATGATCGCCAATATGGACGCGCAAATCGGCACCCTGATGGAGACGCTGAAACAAACCGGGCGCGATAAAAATACCCTG
+CTGGTCTTTTTAACCGATAACGGCGCCAACCCGGCGCAGGGTTTCTACTACGAATCTACCCCGGAATTCTGGAAGCAG
+TTCGATAACAGCTATGACAACGTCGGCCGCAAAGGATCATTTGTCTCCTACGGCCCGCACTGGGCCAACGTCAGCAAC
+GCCCCCTACGCCAATTATCACAAAACCACCAGCGCCCAGGGCGGCATCAATACCGACTTTATGATCTCCGGTCCCGGG
+ATCACCCGCCACGGTAAAATCGACGCCTCGACGATGGCGGTGTATGACGTGGCGCCGACGCTATATGAATTCGCCGGC
+ATCGATCCGAACAAGTCGCTGGCGAAAAAGCCGGTGTTGCCGATGATCGGCGTCAGCTTTAAGCGCTATCTCACCGGC
+GAAATACAGGAGCCGCCGCGCGGCAACTACGGGGTTGAACTGCATCATCAGGCGGCCTGGGTCGATGGCGAATGGAAG
+CTGCGACGGCTGGTGCCGCGCGGCCTCACCGCCGGCGACGCGCCGTGGCAGCTGTTTAATCTGCACGACGACCCGCTG
+GAGACGCATGATGTCGCGGTCGAACATCCCGATCGGGTTAAAGCCATGAGCGAGGCCTACGAGGCATTTGCTAAGCGC
+ACCATGGTTACCAAAGCGCAGGGCAAAATGATCGACTACGTCGGTATCGATAGCAAAACCGGGCGCTATCTGGCGGTC
+GACCCCGCCACCATGAAGCCGGTGCCTGCGCCGCAGGCGATCCCTGTGAGCGAGATCCATTAACCACCACGGCTATCG
+TTCTTCCGGGCGATAGCCGGGACCTGACGCGCTTTTTAAGGTAATCGGAAACCCCATTACAGGAGAGTGCGGATGGCG
+AGAGTCGTGGTGATAACCGGTGGCGGAACCGGAATTGGCGCCGCCTGCGCGCGGCTGATGCGCGCCGCGGGCGACCGG
+GTGTTTATTACCGGCCGGCGCGAAGCGCCGCTGCAGGCTGTCGCCAATGAGACCGGCGCCACGGCGCTGGTGGGCGAT
+GCCGCCGACGGCGAGGTGTGGCGCCAGCGGCTGCTACCGGCGATCCTCGACCAGACCGGCGGGATTGATGTCCTCATC
+TGCAGCGCCGGCGGGATGGGCAACAGCCCCGCCGCCGAGACCAGCGACCGCCAATGGCGCGAGGCGCTGGACGGCAAT
+CTCACCAGCGCCTTCGCCAGCGTTCGCGCCTGCCTGCCTTCGCTGATTGCCCGCCGCGGCAATGTGCTGTTTGTCGCC
+TCCATCGCCTCTCTGGCCGCCGGGCCGCAGGCCTGCGGCTACGTCACCGCCAAACACGCTTTAATCGGCCTGATGCGC
+TCCGTCGCCCGCGATTATGGCCCCCAGGGGTTACGCGCTAACGCCGTCTGTCCCGGCTGGGTCACGACGCCGATGGCG
+GATGAAGAGATGCGCCCGCTGATGCAGGCGGAAGGGCTGTCGCTGGCTGAGGCTTATCAGCGGGTCTGTCGCGATGTT
+CCGCTGCGCCGCCCCGCCAGCCCCGAGGAGATAGCCGAGGCCTGTCAGTTTCTCTGTTCGCCGCAGGCCGCCATCATC
+AGCGGCGCTACGCTGGTCGCCGACGGCGGGGCCAGTATCGTCGATGTTCCCACTCTGGCGTTTGCCTAACGCCCTACT
+CTGTTCAGGAGCCCCTATGACTTCAGAAGCCGTATTTATCCAGGTCGGCGCGCTGGCCGATGGTTTTGCGCCGCACGG
+TAACCTGCTGGCTACCGCCAGCCTGCCCGCCGGCGAAAACTTTACCTTTTATGTCGCCGGGAGCGAGCCGCAGCAGCT
+GGTTATCGAAGATGAGCAGACGCTAAGCTGGAACGGCAAGCGCGCCCCCTGGCGAGCGACCGCCCTGCGCCCGGACAT
+TCTGTTTATCGACTTCCTTGACCCGGAGCGGGATAACGCCAGCATTAGCGCGGTATGCAACCTGACGCAGCGCAATGC
+CACGCTGGTATACGGCCAGCTACCGGACGAAGCCGCCGCGCGGCTGGACGCCTTCAGCCGGGTAGAACAAGGGTTGCC
+GCTGACCGCGGTTGAGGCCCGTTTCGTCTTCGCCCGCCTGGATGCCCAGCCGGGGCCGCTGCCGGGCTTTACCGATGC
+GCTCATTGGCATGCGCAATCAGTACACCTACAGCCCGACCGAGCGCTATGAGCACATCTATCTCAACGACAATTTTTA
+CGCCTGGCAGTGTCTGGACGGCGTGGAAAAGGGGCTGGCGGATGTCGATCGCTGCCATTACGTGCAGGTGGCTGAGGA
+TCTCTATTTGTTCGTCTGGCGGGAGAAAATCATCCCCACGCTGGGGGTGATCCTCATCGATCTGCAGCAGATGCGCAC
+TGACGGCAAGATCATGGGCTATCAGGGCAGCGATTTCGGCGCCCTCAGCAATTTCCCGGTCGGCGCCAGCGCGAAGAT
+CCTCAACGTCACCCGCCATCAGGAATAGTAGGGCGCCGCCGGGCACGCTTTCAGGCACCGCACCCGTCATTTCGCCGG
+GTGGCGGCTGCGCCTTACCCGGCCTACCGGGGCCTCTCACAGGCTCACACCTCGCAGGCCCGGTAAGCGCAGCACCAC
+CGGGCGATGCCATCAGGCACAGAGCCGCTTTATTGCCGGGTGGCGGCTGGCGCCTTACCCGGCCTACAGGAGCCTCTC
+ACAGGATCACACCTCGTAGGCCCGGTAAGCGCAGCGCCACCGGGCGATGCCATCAGGCACGGAGCCGCTTTATTGCCG
+GGTGGCGGCTGGCGCCTTACCCGGCCTACGATTCGCGCAACCTGTCGTTAATTTATTCACCAGTCTTGCTGAAACTGC
+CGGTGTTGCGGCCTCAACATCGCTGAGACGTTCCCGGAAGGCCGGGGCAGCCCGCATGGATGCGGGCTGAGGGCCGTG
+TTTTGCACGGACGCTGCCTCGGCCCGACCCGAAGCCTGCAGGGATAAGTCGAAGGTACCGCGCAGCGGCGATGTTGCT
+GGCCGGAGCCCGGGGGTACAGGGGGCGGCGGCGACTGGCCGCCCCCTGTGCGCTCCCTGCACCATGACTGCCATAACG
+CAGACAATTAACCGGGAGCGCAATCGGCCCGGAAGTAACATAGAAGCTGTAGCCCTGCTAAGCGCAGCGCGGGCAGGG
+ACATTTCCGGTTGCGCCGTTATTTTGCCGGGTGGCGGCTG" } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000034.1_1" } ,
+          descr {
+            title "Anaerobic sulfatase-maturating enzyme [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 395 ,
+            seq-data
+              ncbieaa "MLNIAALRQQQIPLAAEPRSPVPFHILMKPIGPACNLACRYCYYPQDETPVNKMD
+DARLEQFIRRYIAAQPAGAREINFVWQGGEPLLAGLSFYKKALALQARYAPDGVTISNSLQTNGTLINDAWCRLFREH
+GFIIGLSLEGNEALQDYHRPDKRGRSTWSAALRGIDLLHQHQVDFNLLVVVHNEMAAHAAAIYDRLVSLGARYLQFQP
+LMSEGAALREGYQLSADNWGRFMVGIWRQWRKRCDRGRVFVINIEQAWAQYFTHTSGSCVHSARCGSNLVMEPDGQLY
+ACDHLINAEHRLGRLDEQTLAAAVDASVQLPFGQQKSLRRECQTCSVKMVCQGGCPAHLNAAGNNRLCGGYYRFFSDI
+LAPVRPFSRDLNGLKAWRAAFVGTAHTA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 5 ,
+                    data
+                      prot {
+                        name {
+                          "Anaerobic sulfatase-maturating enzyme" } ,
+                        ec {
+                          "1.1.99.-" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 394 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000034.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000034.1_2" } ,
+          descr {
+            title "Arylsulfatase [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 577 ,
+            seq-data
+              ncbieaa "MNKKAMAAAVSMILAGGAHAAQQERPNVIVIIADDMGYSDISPFGGEIPTPNLQA
+MAEQGMRMSQYYTSPMSAPARSMLLTGNSNQQAGMGGMWWYDSTIGKEGYELRLTDRVTTMAERFKDAGYNTLMAGKW
+HLGFVPGATPKDRGFNHAFAFMGGGTSHFNDAIPLGTVEAFHTYYTRDGERVSLPDDFYSSEAYARQMNSWIKATPKE
+QPVFAWLAFTAPHDPLQAPDEWIKRFKGQYEQGYAEVYRQRIARLKALGIIHDDTPLPHLELDKEWEALTPEQQKYTA
+KVMQVYAAMIANMDAQIGTLMETLKQTGRDKNTLLVFLTDNGANPAQGFYYESTPEFWKQFDNSYDNVGRKGSFVSYG
+PHWANVSNAPYANYHKTTSAQGGINTDFMISGPGITRHGKIDASTMAVYDVAPTLYEFAGIDPNKSLAKKPVLPMIGV
+SFKRYLTGEIQEPPRGNYGVELHHQAAWVDGEWKLRRLVPRGLTAGDAPWQLFNLHDDPLETHDVAVEHPDRVKAMSE
+AYEAFAKRTMVTKAQGKMIDYVGIDSKTGRYLAVDPATMKPVPAPQAIPVSEIH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 6 ,
+                    data
+                      prot {
+                        name {
+                          "Arylsulfatase" } ,
+                        ec {
+                          "3.1.6.1" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 576 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000034.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000034.1_3" } ,
+          descr {
+            title "3-oxoacyl-[acyl-carrier-protein] reductase FabG [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 258 ,
+            seq-data
+              ncbieaa "MARVVVITGGGTGIGAACARLMRAAGDRVFITGRREAPLQAVANETGATALVGDA
+ADGEVWRQRLLPAILDQTGGIDVLICSAGGMGNSPAAETSDRQWREALDGNLTSAFASVRACLPSLIARRGNVLFVAS
+IASLAAGPQACGYVTAKHALIGLMRSVARDYGPQGLRANAVCPGWVTTPMADEEMRPLMQAEGLSLAEAYQRVCRDVP
+LRRPASPEEIAEACQFLCSPQAAIISGATLVADGGASIVDVPTLAFA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 7 ,
+                    data
+                      prot {
+                        name {
+                          "3-oxoacyl-[acyl-carrier-protein] reductase FabG" } ,
+                        ec {
+                          "1.1.1.100" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 257 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000034.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "NZ_JBAMCA010000034.1_4" } ,
+          descr {
+            title "Protein MoaF [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 263 ,
+            seq-data
+              ncbieaa "MTSEAVFIQVGALADGFAPHGNLLATASLPAGENFTFYVAGSEPQQLVIEDEQTL
+SWNGKRAPWRATALRPDILFIDFLDPERDNASISAVCNLTQRNATLVYGQLPDEAAARLDAFSRVEQGLPLTAVEARF
+VFARLDAQPGPLPGFTDALIGMRNQYTYSPTERYEHIYLNDNFYAWQCLDGVEKGLADVDRCHYVQVAEDLYLFVWRE
+KIIPTLGVILIDLQQMRTDGKIMGYQGSDFGALSNFPVGASAKILNVTRHQE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 8 ,
+                    data
+                      prot {
+                        name {
+                          "Protein MoaF" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 262 ,
+                        id
+                          local
+                            str "NZ_JBAMCA010000034.1_4" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000034.1_1" ,
+                location
+                  int {
+                    from 194 ,
+                    to 1381 ,
+                    strand plus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000034.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9X758" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "atsB" ,
+                        locus-tag "NZ_JBAMCA010000034_00001" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0641" } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000034.1_2" ,
+                location
+                  int {
+                    from 1426 ,
+                    to 3159 ,
+                    strand plus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000034.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9X759" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "atsA" ,
+                        locus-tag "NZ_JBAMCA010000034_00002" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG3119" } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000034.1_3" ,
+                location
+                  int {
+                    from 3247 ,
+                    to 4023 ,
+                    strand plus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000034.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P50941" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "fabG" ,
+                        locus-tag "NZ_JBAMCA010000034_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "NZ_JBAMCA010000034.1_4" ,
+                location
+                  int {
+                    from 4049 ,
+                    to 4840 ,
+                    strand plus ,
+                    id
+                      local
+                        str "NZ_JBAMCA010000034.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P54796" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "moaF" ,
+                        locus-tag "NZ_JBAMCA010000034_00004" } } } } } } } } } }
